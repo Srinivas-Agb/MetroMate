@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="station_array_source">
+        <item>Select Source</item>
+        <item>Ameerpet</item>
+        <item>Assembly</item>
+        <item>Begumpet</item>
+        <item>Bharat Nagar</item>
+        <item>Chaitanyapuri</item>
+        <item>Chikkadpally</item>
+        <item>Dilsukhnagar</item>
+        <item>Dr.B.R.Ambedkar Balanagar</item>
+        <item>Durgam Cheruvu</item>
+        <item>ESI Hospital</item>
+        <item>Erragadda</item>
+        <item>Gandhi Bhavan</item>
+        <item>Gandhi Hospital</item>
+        <item>Habsiguda</item>
+        <item>Hitec City</item>
+        <item>Irrum Manzil</item>
+        <item>JNTU College</item>
+        <item>Jubilee Hills Check Post</item>
+        <item>KPHB Colony</item>
+        <item>Khairatabad</item>
+        <item>Kukatpally</item>
+        <item>LB Nagar</item>
+        <item>Lakdi-Ka-Pul</item>
+        <item>MG Bus Station</item>
+        <item>Madhapur</item>
+        <item>Madhura Nagar</item>
+        <item>Malakpet</item>
+        <item>Mettuguda</item>
+        <item>Miyapur</item>
+        <item>Moosapet</item>
+        <item>Musarambagh</item>
+        <item>Musheerabad</item>
+        <item>NGRI</item>
+        <item>Nagole</item>
+        <item>Nampally</item>
+        <item>Narayanguda</item>
+        <item>New Market</item>
+        <item>Osmania Medical College</item>
+        <item>Parade Ground</item>
+        <item>Paradise</item>
+        <item>Peddamma Gudi</item>
+        <item>Prakash Nagar</item>
+        <item>Punjagutta</item>
+        <item>RTC X Roads</item>
+        <item>Raidurg</item>
+        <item>Rasoolpura</item>
+        <item>Road No.5 Jubilee Hills</item>
+        <item>SR Nagar</item>
+        <item>Secunderabad East</item>
+        <item>Secunderabad West</item>
+        <item>Stadium</item>
+        <item>Sultan Bazar</item>
+        <item>Tarnaka</item>
+        <item>Uppal</item>
+        <item>Victoria Memorial</item>
+        <item>Yusufguda</item>
+    </string-array>
+    <string-array name="station_array_destination">
+        <item>Select Destination</item>
+        <item>Ameerpet</item>
+        <item>Assembly</item>
+        <item>Begumpet</item>
+        <item>Bharat Nagar</item>
+        <item>Chaitanyapuri</item>
+        <item>Chikkadpally</item>
+        <item>Dilsukhnagar</item>
+        <item>Dr.B.R.Ambedkar Balanagar</item>
+        <item>Durgam Cheruvu</item>
+        <item>ESI Hospital</item>
+        <item>Erragadda</item>
+        <item>Gandhi Bhavan</item>
+        <item>Gandhi Hospital</item>
+        <item>Habsiguda</item>
+        <item>Hitec City</item>
+        <item>Irrum Manzil</item>
+        <item>JNTU College</item>
+        <item>Jubilee Hills Check Post</item>
+        <item>KPHB Colony</item>
+        <item>Khairatabad</item>
+        <item>Kukatpally</item>
+        <item>LB Nagar</item>
+        <item>Lakdi-Ka-Pul</item>
+        <item>MG Bus Station</item>
+        <item>Madhapur</item>
+        <item>Madhura Nagar</item>
+        <item>Malakpet</item>
+        <item>Mettuguda</item>
+        <item>Miyapur</item>
+        <item>Moosapet</item>
+        <item>Musarambagh</item>
+        <item>Musheerabad</item>
+        <item>NGRI</item>
+        <item>Nagole</item>
+        <item>Nampally</item>
+        <item>Narayanguda</item>
+        <item>New Market</item>
+        <item>Osmania Medical College</item>
+        <item>Parade Ground</item>
+        <item>Paradise</item>
+        <item>Peddamma Gudi</item>
+        <item>Prakash Nagar</item>
+        <item>Punjagutta</item>
+        <item>RTC X Roads</item>
+        <item>Raidurg</item>
+        <item>Rasoolpura</item>
+        <item>Road No.5 Jubilee Hills</item>
+        <item>SR Nagar</item>
+        <item>Secunderabad East</item>
+        <item>Secunderabad West</item>
+        <item>Stadium</item>
+        <item>Sultan Bazar</item>
+        <item>Tarnaka</item>
+        <item>Uppal</item>
+        <item>Victoria Memorial</item>
+        <item>Yusufguda</item>
+    </string-array>
+</resources>

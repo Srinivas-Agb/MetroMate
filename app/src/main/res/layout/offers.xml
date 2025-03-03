@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/back_btn17"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,VisualLintOverlap,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:paddingHorizontal="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="70dp"
+        android:text="L&amp;T Metro Rail (Hyderabad) Limited (L&amp;TMRHL) has announced changes in their fare structure during off peak hours with effect from April 1.\n\nIt will provide a 10% discount on the notified fare on Contactless Smart Cards (CSC) only,during off-peak hours, from 6 am to 8 am and 8 pm to 11 pm.\n\nThe Super Saver Offer (SSO-99) will be valid till March 31, 2024.\n\nPassengers can travel unlimited on 100 notified holidays at Rs 99 only. Pre-existing SSO-59 smart cards can be used for the SSO-99 offer."
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,VisualLintLongText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

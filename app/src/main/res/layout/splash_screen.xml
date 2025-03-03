@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/motionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/splash_scene">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/backgroundLayout"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:background="@drawable/bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/blueTwitter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#ff2e5fdd"
+        android:src="@drawable/metro_app_icon"
+        android:elevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/whiteTwitter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:elevation="20dp"
+        android:src="@drawable/metro_app_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="MetroMate"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold|normal"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteY="441dp" />
+</androidx.constraintlayout.motion.widget.MotionLayout>

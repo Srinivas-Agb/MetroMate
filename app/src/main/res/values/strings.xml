@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- home strings -->
+
+    <string name="app_name">MetroMate</string>
+    <!--string name="ek_img_content">ExportKit Image</string-->
+    <string name="select_source">Select Station</string>
+    <string name="select_destination">Select Station</string>
+    <string name="advanced_filters_string">Advanced Filters</string>
+    <string name="where_do_you_want_to_go__string">Where do you want to go?</string>
+    <string name="quick_contact___st7ring">Quick Contact :</string>
+    <string name="from_string">From</string>
+    <string name="to_string">To</string>
+    <string name="shortest_route_string"> Shortest Route</string>
+    <string name="minimum_interchange_string"> Minimum Interchange</string>
+    <string name="show_route_and_fare_string">Show Route &amp; Fare</string>
+    <string name="where_do_you_want_to_go">Where do you want to go?</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text" />
+    <string name="Shortest_Distance">Shortest Route</string>
+    <string name="Minimum_Interchange">Minimum Interchange</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="show_fare_route"><![CDATA[Show Fare & Route]]></string>
+    <string name="holidays_list">Holidays List</string>
+    <string name="contact_inf">Contact Information:</string>
+    <string name="some_id">
+: 040-2338-8587\n
+</string>
+    <string name="title_activity_holiday_list">HolidayList</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="app">App</string>
+    <string name="paytm_web">Paytm Web</string>
+    <string name="official_web">Official Web</string>
+    <string name="paytm">Paytm</string>
+    <string name="phonepe">PhonePe</string>
+    <string name="reset">Reset</string>
+    <string name="calculate_fare">Calculate Fare</string>
+    <string name="enter_end_station">Enter End Station</string>
+    <string name="enter_start_station">Enter Start Station</string>
+    <string name="other_info">Other Info</string>
+    <string name="fare">Fare</string>
+    <string name="stations">Stations</string>
+    <string name="change">Change</string>
+    <string name="other_info_link_text">Show your support and help
+        India become corruption free. Go to http://pledge.cvc.nic.in</string>
+    <string name="disclaimer">    Info :</string>
+    <string name="tickets_are_also_available_at_the_metro_station_ticket_counters">Tickets can
+        also be purchased at the metro station ticket counters.</string>
+    <string name="fare_and_route">Fare and Route</string>
+
+
+    <string name="font_bold">fonts/Poppins-Bold.ttf</string>
+    <string name="font_light">fonts/Poppins-Light.ttf</string>
+    <string name="font_medium">fonts/Poppins-Medium.ttf</string>
+    <string name="font_regular">fonts/Poppins-Regular.ttf</string>
+    <string name="font_semibold">fonts/Poppins-SemiBold.ttf</string>
+    <string name="font_ubantu">fonts/Ubuntu-Regular.ttf</string>
+    <string name="font_ubantu_medium">fonts/Ubuntu-Medium.ttf</string>
+    <string name="click_on_the_station_name_to_open_the_station_location_in_google_maps_nopen_maps_will_open_the_location_of_the_nearest_metro_station">Click on the station name to open the station location in Google Maps.\nOpen Maps will open the location of the nearest metro station.</string>
+    <string name="_10_discount_on_the_fare_on_contactless_smart_cards_csc_from_6_am_to_8_am_and_8_pm_to_11_pm">10% discount on the fare on Contactless Smart Cards (CSC) from 6 am to 8 am and 8 pm to 11 pm.</string>
+    <string name="unlimited_travel_on_notified_holidays_ar_rs_99_using_super_saver_smart_card">Unlimited travel on notified holidays ar Rs.99 using Super Saver smart card.</string>
+
+</resources>

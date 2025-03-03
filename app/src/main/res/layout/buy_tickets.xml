@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_tansprant"
+    tools:context=".BuyTickets">
+
+    <Button
+        android:id="@+id/back_btn3"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,VisualLintOverlap,TouchTargetSizeCheck" />
+
+    <LinearLayout
+        android:id="@+id/ll_buy_tkts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/back_btn3"
+        android:layout_marginTop="@dimen/_30sdp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardpaytm"
+            android:layout_width="260dp"
+            android:layout_height="110dp"
+            android:paddingVertical="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginBottom="15dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="320dp"
+                android:layout_height="130dp"
+                android:src="@drawable/paytm_card" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardPhonepe"
+            android:layout_width="260dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginBottom="15dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="340dp"
+                android:layout_height="250dp"
+                android:src="@drawable/phonepe_card"
+                />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardWhatsapp"
+            android:layout_width="260dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginBottom="15dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:src="@drawable/whatsapp_card"
+                />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp"
+            >
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/info_symbol"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/disclaimer"
+                android:textSize="15sp"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold|normal"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/disclaimerText"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="23dp"
+            android:textSize="13sp"
+            android:layout_marginEnd="15dp"
+            android:textColor="@color/black"
+            android:text="@string/tickets_are_also_available_at_the_metro_station_ticket_counters"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

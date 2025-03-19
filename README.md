@@ -42,6 +42,6 @@ Simply download the MetroMate app from the Releases section of this Repository, 
 
 ## Support and Feedback
 
-Your feedback is valuable! If you encounter any issues, have suggestions, or want to share your experience, please reach out to us via the provided Google Form or contact our support team at [support@metromate.com](mailto:nagavikram.joga@gmail.com).
+Your feedback is valuable! If you encounter any issues, have suggestions, or want to share your experience, please reach out to us via the provided Google Form or contact our support team at [support@metromate.com](mailto:srinivaspatelagb@gmail.com).
 
 Thank you for choosing MetroMate for your Hyderabad metro travel needs!
